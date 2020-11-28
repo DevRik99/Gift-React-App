@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100vw;
+}
+input,
+button {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+.container {
+  max-width: 80vw;
+  margin: 3rem 0;
+}
+.categoria {
+  padding: 1rem 0;
+  text-align: center;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+h3,
+li,
+p {
+  text-transform: capitalize;
+}
+.text-center {
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  margin: auto;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  padding: 16px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
