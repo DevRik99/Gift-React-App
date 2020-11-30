@@ -1,4 +1,4 @@
-# Grade Js Ejemplo con Infinite Scroll
+# Gift Buscador App en React JS
 
 _Hola este es un ejemplo de un buscador de Gifts en **ReactJS** utilizando la api de **giphy**_
 
